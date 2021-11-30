@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clone Kawal Covid 19</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./public/main.css">
+</head>
+
+<body class="bg-gray-100 font-sans">
+  <nav class="bg-white fixed top-0 inset-x-0 z-50 shadow">
+    <div class="bg-amber-400">
+      <div class="container flex justify-start items-center space-x-3">
+        <h1 class="py-4 font-light">
+          Izin notifikasi mengerim pesan
+        </h1>
+        <button type="button" class="inline-flex px-4 py-1 bg-blue-500 text-white font-semibold rounded-md">
+          Izinkan
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="relative flex items-center justify-between h-20">
+        <div class="flex justify-center items-center space-x-4">
+          <div>
+            <img src="./styles/img/logo.jpg" alt="Logo" class="w-10 h-auto">
+          </div>
+          <div>
+            <h1 class="font-semibold leading-tight">Pusat Informasi & Koordinasi COVID-19</h1>
+            <p class="leading-tight">Provinsi Jawa Barat</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <div class="flex items-center space-x-3 text-gray-400 text-sm">
+            <a href="#" class="py-2 px-3 font-semibold text-emerald-400 hover:bg-gray-200">
+              Home
+            </a>
+            <a href="#"
+              class="flex justify-center items-center space-x-2 py-2 pl-3 pr-2 font-semibold hover:bg-gray-200">
+              <span>Data</span>
+              <svg class="w-4 h-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </a>
+            <a href="#" class="py-2 px-3 font-semibold hover:bg-gray-200">
+              Vaksinasi
+            </a>
+            <a href="#" class="py-2 px-3 font-semibold hover:bg-gray-200">
+              Isoman
+            </a>
+            <a href="#" class="py-2 px-3 font-semibold hover:bg-gray-200">
+              Cari Oksigen
+            </a>
+            <a href="#"
+              class="flex justify-center items-center space-x-2 py-2 pl-3 pr-2 font-semibold hover:bg-gray-200">
+              <span>Informasi</span>
+              <svg class="w-4 h-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </a>
+          </div>
+          <div class="flex items-center space-x-4">
+            <button type="button" class="text-gray-400 hover:bg-gray-200 rounded-full p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
+              </svg>
+            </button type="button">
+            <button type="button" class="bg-emerald-500 text-white px-4 py-2 rounded-md">
+              Download App
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="relative">
+    <div class="pt-44 flex justify-center items-center">
+      <div class="container">
+        <div class="grid grid-cols-4 gap-7">
+          <div class="col-span-2 row-span-2">
+            <div class="relative rounded-lg overflow-hidden">
+              <button type="button" class="absolute z-30 bg-white shadow-lg p-4 rounded-full top-36 left-6">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <button type="button" class="absolute z-30 bg-white shadow-lg p-4 rounded-full top-36 right-6">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+              <img src="./styles/img/beautiful-ladies.png" alt="Beatiful Ladies" class="object-cover">
+            </div>
+          </div>
+          <div
+            class="cursor-pointer hover:bg-green-100 flex flex-col justify-center items-start space-y-4 bg-white shadow-lg rounded-lg">
+            <div class="px-8">
+              <h2 class="text-base">Call Center</h2>
+              <p class="text-sm">Nomor Darurat</p>
+            </div>
+            <div class="px-8 hidden sm:block lg:inline-flex lg:order-2 lg:w-full items-center text-green-500">
+              <svg class="w-7 h-7" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                class="svg-inline--fa fa-phone-alt fa-w-16 mr-3 lg:hidden xl:inline-block text-2xl">
+                <path fill="currentColor"
+                  d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z">
+                </path>
+              </svg>
+              <span class="hidden text-xl lg:inline-block font-bold ml-2">
+                119
+              </span>
+            </div>
+          </div>
+          <div
+            class="cursor-pointer hover:bg-green-100 flex flex-col justify-center items-start space-y-4 bg-white shadow-lg rounded-lg">
+            <div class="px-8">
+              <h2 class="text-base">Hotline Pikobar</h2>
+              <p class="text-sm">Chat WA seputar COVID-19</p>
+            </div>
+            <div class="px-8 hidden sm:block lg:inline-flex lg:order-2 lg:w-full items-center text-green-500">
+              <svg class="w-10 h-10" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="svg-inline--fa fa-whatsapp fa-w-14 mr-3 lg:hidden xl:inline-block text-4xl">
+                <path fill="currentColor"
+                  d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                  class=""></path>
+              </svg>
+              <span class="hidden text-xl lg:inline-block font-bold ml-2">
+                Klik untuk chat
+              </span>
+            </div>
+          </div>
+          <div class="col-span-2 bg-white shadow-lg rounded-lg flex justify-center items-center px-8">
+            <div class="flex-1">
+              <h6 class="">
+                Ikuti perkembangan terkini seputar Covid-19
+                dengan mengikuti kanal sosial media kami.
+              </h6>
+            </div>
+            <ul class="flex-1 flex justify-center">
+              <li class="mr-4">
+                <a href="#" target="_blank">
+                  <svg class="w-10 h-10 text-green-500" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512" class="text-4xl text-green-500 svg-inline--fa fa-instagram fa-w-14">
+                    <path fill="currentColor"
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      class=""></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="mr-4">
+                <a href="#" target="_blank">
+                  <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" id="regular"
+                    enable-background="new 0 0 24 24" height="512px" viewBox="0 0 24 24" width="512px" class="">
+                    <g>
+                      <path
+                        d="m.473 19.595c2.222 1.41 4.808 2.155 7.478 2.155 3.91 0 7.493-1.502 10.09-4.229 2.485-2.61 3.852-6.117 3.784-9.676.942-.806 2.05-2.345 2.05-3.845 0-.575-.624-.94-1.13-.647-.885.52-1.692.656-2.522.423-1.695-1.652-4.218-2-6.344-.854-1.858 1-2.891 2.83-2.798 4.83-3.139-.383-6.039-1.957-8.061-4.403-.332-.399-.962-.352-1.226.1-.974 1.668-.964 3.601-.117 5.162-.403.071-.652.41-.652.777 0 1.569.706 3.011 1.843 3.995-.212.204-.282.507-.192.777.5 1.502 1.632 2.676 3.047 3.264-1.539.735-3.241.98-4.756.794-.784-.106-1.171.948-.494 1.377zm7.683-1.914c.561-.431.263-1.329-.441-1.344-1.24-.026-2.369-.637-3.072-1.598.339-.022.69-.074 1.024-.164.761-.206.725-1.304-.048-1.459-1.403-.282-2.504-1.304-2.917-2.62.377.093.761.145 1.144.152.759.004 1.046-.969.427-1.376-1.395-.919-1.99-2.542-1.596-4.068 2.436 2.468 5.741 3.955 9.237 4.123.501.031.877-.44.767-.917-.475-2.059.675-3.502 1.91-4.167 1.222-.66 3.184-.866 4.688.712.447.471 1.955.489 2.722.31-.344.648-.873 1.263-1.368 1.609-.211.148-.332.394-.319.651.161 3.285-1.063 6.551-3.358 8.96-2.312 2.427-5.509 3.764-9.004 3.764-1.39 0-2.753-.226-4.041-.662 1.54-.298 3.003-.95 4.245-1.906z"
+                        data-original="#000000" class="active-path" data-old_color="#000000" fill="#48bb78" />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative">
+    <div class="min-h-screen pt-10">
+      <div class="container">
+        <h2 class="text-lg md:text-2xl">
+          <b>Angka Kejadian di Jawa Barat</b>
+          <br>
+          <small class="opacity-50">Update Terakhir: Selasa, 30 Nov 2021 16.30</small>
+        </h2>
+        <div>
+          <ul
+            class="overflow-x-auto md:overflow-x-hidden flex flex-row flex-no-wrap items-stretch border-b-2 border-green-400">
+            <li
+              class="relative cursor-pointer px-4 py-4 sm:px-6 whitespace-no-wrap select-none hover:bg-gray-200 border-b-4 border-green-400 border-brand-green">
+              <a class="text-lg font-bold text-brand-green">
+                Statistik
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid grid-cols-4 gap-5 pt-5">
+          <div class="flex flex-col items-center rounded-md shadow-lg bg-purple-900 p-4">
+            <h2 class="text font-semibold text-gray-300 tracking-wider uppercase">Total terkonfirmasi</h2>
+            <div class="flex items-center justify-between space-x-5 mt-2">
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <h3 class="font-semibold text-white">Jawa Barat</h3>
+                <span class="text-2xl font-bold text-white">707.728</span>
+                <span class="font-semibold text-white flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-900 rounded-full p-1 bg-white mr-3"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                  29
+                </span>
+              </div>
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <h6 class="font-semibold text-white">Indonesia</h6>
+                <span class="text-2xl font-bold text-white">4.256.112</span>
+                <span class="font-semibold text-white flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-900 rounded-full p-1 bg-white mr-3"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                  176
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-md shadow-lg bg-white p-4">
+            <h2 class="text font-semibold text-gray-800 tracking-wider uppercase">Isolasi/Dalam Perawatan
+            </h2>
+            <div class="flex items-center justify-between space-x-5 mt-2">
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <h3 class="font-semibold text-gray-800">Jawa Barat</h3>
+                <span class="text-2xl font-bold text-amber-800">707.728</span>
+                <span class="font-semibold text-amber-800 flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white rounded-full p-1 bg-amber-800 mr-3"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                  29
+                </span>
+              </div>
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <h6 class="font-semibold text-gray-800">Indonesia</h6>
+                <span class="text-2xl font-bold text-amber-800">4.256.112</span>
+                <span class="font-semibold text-amber-800 flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white rounded-full p-1 bg-amber-800 mr-3"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                  176
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-md shadow-lg bg-white p-4">
+            <h2 class="text font-semibold text-gray-800 tracking-wider uppercase">Selesai isolasi/Sembuh
+            </h2>
+            <div class="flex items-center justify-between space-x-5 mt-2">
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <h3 class="font-semibold text-gray-800">Jawa Barat</h3>
+                <span class="text-2xl font-bold text-green-500">707.728</span>
+                <span class="font-semibold text-green-500 flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white rounded-full p-1 bg-green-500 mr-3"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                  29
+                </span>
+              </div>
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <h6 class="font-semibold text-gray-800">Indonesia</h6>
+                <span class="text-2xl font-bold text-green-500">4.256.112</span>
+                <span class="font-semibold text-green-500 flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white rounded-full p-1 bg-green-500 mr-3"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                  176
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-md shadow-lg bg-white p-4">
+            <h2 class="text font-semibold text-gray-800 tracking-wider uppercase">Meninggal</h2>
+            <div class="flex items-center justify-betwee space-x-5 mt-2">
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <h3 class="font-semibold text-gray-800">Jawa Barat</h3>
+                <span class="text-2xl font-bold text-red-600">707.728</span>
+                <span class="font-semibold text-red-600 flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white rounded-full p-1 bg-red-600 mr-3"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                  29
+                </span>
+              </div>
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <h6 class="font-semibold text-gray-800">Indonesia</h6>
+                <span class="text-2xl font-bold text-red-600">4.256.112</span>
+                <span class="font-semibold text-red-600 flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white rounded-full p-1 bg-red-600 mr-3"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                  176
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-5 pt-5">
+          <div class="flex flex-col items-center p-4 rounded-md shadow-lg bg-white">
+            <h2 class="text font-semibold text-gray-700 tracking-wider uppercase flex items-center">
+              <span class="mr-2">Kontak erat</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </h2>
+            <div class="w-full flex flex-col items-center mt-3">
+              <h3 class="text-3xl font-bold text-gray-700">572.979</h3>
+              <h5 class="font-medium text-gray-600">Total Kontak Erat</h5>
+            </div>
+            <div class="w-full flex items-center justify-between px-8 space-x-2 mt-2">
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <span class="text-2xl font-bold text-amber-700">25.744</span>
+                <h3 class="font-semibold text-amber-700">(4.49%)</h3>
+                <span class="font-semibold text-gray-700 capitalize text-sm">
+                  Masih dikarantina
+                </span>
+              </div>
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <span class="text-2xl font-bold text-gray-700 filter opacity-60">547.235</span>
+                <h3 class="font-semibold text-gray-700 filter opacity-60">(95.51%)</h3>
+                <p class="font-semibold text-gray-700 capitalize text-sm flex">
+                  <span>Discarded</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-center p-4 rounded-md shadow-lg bg-white">
+            <h2 class="text font-semibold text-gray-700 tracking-wider uppercase flex items-center">
+              <span class="mr-2">Suspek</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </h2>
+            <div class="w-full flex flex-col items-center mt-3">
+              <h3 class="text-3xl font-bold text-gray-700">572.979</h3>
+              <h5 class="font-medium text-gray-600">Total Suspek</h5>
+            </div>
+            <div class="w-full flex items-center justify-between px-8 space-x-2 mt-2">
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <span class="text-2xl font-bold text-amber-700">25.744</span>
+                <h3 class="font-semibold text-amber-700">(4.49%)</h3>
+                <span class="font-semibold text-gray-700 capitalize text-sm">
+                  Masih dikarantina
+                </span>
+              </div>
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <span class="text-2xl font-bold text-gray-700 filter opacity-60">547.235</span>
+                <h3 class="font-semibold text-gray-700 filter opacity-60">(95.51%)</h3>
+                <p class="font-semibold text-gray-700 capitalize text-sm flex">
+                  <span>Discarded</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-center p-4 rounded-md shadow-lg bg-white">
+            <h2 class="text font-semibold text-gray-700 tracking-wider uppercase flex items-center">
+              <span class="mr-2">Probable</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </h2>
+            <div class="w-full flex flex-col items-center mt-3">
+              <h3 class="text-3xl font-bold text-gray-700">572.979</h3>
+              <h5 class="font-medium text-gray-600">Total Probable</h5>
+            </div>
+            <div class="w-full flex items-center justify-between px-8 space-x-2 mt-2">
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <span class="text-2xl font-bold text-amber-700">25.744</span>
+                <h3 class="font-semibold text-amber-700">(4.49%)</h3>
+                <span class="font-semibold text-gray-700 capitalize text-sm">
+                  Masih dikarantina
+                </span>
+              </div>
+              <div class="flex flex-col items-center justify-between space-y-1">
+                <span class="text-2xl font-bold text-gray-700 filter opacity-60">547.235</span>
+                <h3 class="font-semibold text-gray-700 filter opacity-60">(95.51%)</h3>
+                <p class="font-semibold text-gray-700 capitalize text-sm flex">
+                  <span>Discarded</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center h-24">
+          <button type="button" class="inline-flex justify-center items-center space-x-3 text-green-500 text-xl font-semibold">
+            <span>Lihat Selengkap Nya</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
